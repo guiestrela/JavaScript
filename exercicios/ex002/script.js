@@ -5,15 +5,15 @@ function carregar() {
     var hora = data.getHours()
     msg.innerHTML = `Agora são ${hora} horas.`
     if (hora >= 0 && hora < 12) {
-        //BOM DIA
+        msg1.innerHTML= 'Bom Dia'
         img.src = 'imagens/manha.png'
         document.body.style.background = '#e2cd9f'
     } else if (hora >= 12 && hora < 18) {
-        //BOA TARDE
+        msg1.innerHTML= 'Boa Tarde'
         img.src = 'imagens/tarde.png'
         document.body.style.background = '#b9846f'
     } else {
-        //BOA NOITE
+        msg1.innerHTML= 'Boa Noite'
         img.src = 'imagens/noite.png'
         document.body.style.background = '#515154'
     }
