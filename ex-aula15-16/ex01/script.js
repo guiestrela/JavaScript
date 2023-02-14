@@ -32,3 +32,7 @@ function adicionar() {
     num.focus()
 }
 
+function finalizar() {
+    
+}
+
